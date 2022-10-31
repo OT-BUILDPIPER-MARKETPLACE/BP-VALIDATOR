@@ -1,0 +1,37 @@
+case_insensitive: true
+
+aws_profile: default
+
+region:
+  - us-east-1
+
+services:
+  ec2:
+    env:
+      - any
+    learner:
+      - any
+
+  s3:
+    learner:
+      - any
+    env:
+      - any
+
+  route53:
+    learner:
+      - any
+    env:
+      - any
+
+  dynamodb:
+    env:
+      - any
+    learner:
+      - any
+
+  rds:
+    learner:
+      - any
+    env:
+      - any

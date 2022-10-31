@@ -1,0 +1,8 @@
+setuptools
+pyyaml
+wheel
+pandas
+pyinstaller
+boto3
+git+https://github.com/OT-PYTHON-UTILS/ot-filesystem-libs.git
+git+https://github.com/OT-PYTHON-UTILS/ot-aws-libs.git@develop
