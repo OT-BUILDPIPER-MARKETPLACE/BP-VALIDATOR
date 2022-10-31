@@ -16,15 +16,15 @@ Configuration for this utility will be managed in YAML format. Below are the con
 
 - ***region :*** The AWS Region where this utility is executed.
 
-- ***services:ec2:key:value (Optional) :*** Tags given to ec2 instances.It will validate all the ec2 matches to this given tags.
+- ***services:ec2 (Optional) :*** Tags given to ec2 instances.It will validate all the ec2 matches to this given tags.
 
-- ***services:s3:key:value (Optional) :*** Tags given to s3.It will validate all the s3 matches to this given tags.
+- ***services:s3 (Optional) :*** Tags given to s3.It will validate all the s3 matches to this given tags.
 
-- ***services:route53:key:value (Optional) :*** Tags given to route53.It will validate all the route53 matches to this given tags.
+- ***services:route53 (Optional) :*** Tags given to route53.It will validate all the route53 matches to this given tags.
 
-- ***services:dynamodb:key:value (Optional) :*** Tags given to dynamodb.It will validate all the dynamodb matches to this given tags.
+- ***services:dynamodb (Optional) :*** Tags given to dynamodb.It will validate all the dynamodb matches to this given tags.
 
-- ***services:rds:key:value (Optional) :*** Tags given to rds .It will validate all the rds matches to this given tags.
+- ***services:rds (Optional) :*** Tags given to rds .It will validate all the rds matches to this given tags.
 
 ## SAMPLE CONF FILE
 ```
